@@ -1,0 +1,27 @@
+<%- include header %>
+<link rel="stylesheet" href="/stylesheets/creates.css">
+
+<form action="" method="post" accept-charset="utf-8" class="white-pink">
+	
+	<h1>新博客
+	<span>Please fill all the texts in the fields.</span>
+	</h1>
+	<label>
+		<span>标题: </span>
+		<input type="text" name="name" placeholder="请输入标题">
+	</label>
+	<label>
+		<span>内容: </span>
+		<textarea id="content" type="text" name="content" placeholder="请输入内容"></textarea>
+	</label>
+	<label>
+		<span>&nbsp;</span>
+		<!-- <input type="button" class="button" value="草稿"> -->
+		<!-- <input type="button" class="button" value="取消"> -->
+		<input type="button" class="button" value="发表">
+	</label>
+	
+
+</form>
+
+<%- include footer %>

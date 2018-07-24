@@ -1,0 +1,70 @@
+<%- include header %>
+
+
+
+
+<section>
+  <hr class="bbr">
+  <form>
+      <div class="input-group">
+          <input type="text" class="form-control" placeholder="SEARCH" name="keyword">
+          <span class="input-group-btn">
+              <input type="submit" value="搜索" class="btn btn-default" />
+          </span>
+      </div>
+  </form>
+  <div class="blog-list">
+
+    <ul class="list-group">
+
+      <li class="list-group-item">
+
+        <% data.forEach(function(blog){ %>
+          <div class="blog-title">
+            <a href="#"><%= blog.title %></a>
+          </div>
+          <div class='blog-lines'>
+            <%= blog.comment %>
+          </div>
+          <div class="info">
+            <span>查阅: 3.5万</span>
+            <span>|</span>
+            <span>喜欢: 2.3万</span>
+            <span>|</span>
+            <span>日期：<%- blog.date %></span>
+            <!-- <span>|</span> -->
+            <!-- <span><a href="/update">修改</a></span> -->
+          </div>
+        <% }) %>
+
+      </li>
+    </ul>
+
+  </div>
+
+  <div class="blog-classify">
+    <ul class="blog-tag">
+      <h3>文章列表</h3>
+      
+      <% data.forEach(function(blog){ %>
+        <li>
+          <%= blog.title %>
+        </li>
+      <% }) %>
+
+    </ul>
+    <ul class="blog-links">
+      <h3>好文推荐</h3>
+      
+      <% data.forEach(function(blog){ %>
+        <li>
+          <%= blog.title %>
+        </li>
+      <% }) %>
+
+    </ul>
+  </div>
+</section>
+
+
+<%- include footer %>

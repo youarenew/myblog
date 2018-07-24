@@ -1,0 +1,45 @@
+/* ---------- footer ---------- */
+
+.footer {
+  /* border: 1px solid red; */
+  display: block;
+  width: 100%;
+  height: 160px;
+  margin: 0;
+  padding: 0px;
+  margin: 0px;
+}
+
+.toplink {
+  /* border: 1px solid red; */
+  background: #7788cc2e;
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+}
+
+.block {
+  /* border: 1px solid red; */
+  font: 10px;
+  width: 260px;
+  display: inline-block;
+  text-align: left;
+  vertical-align: bottom;
+  /* background: #0b9; */
+}
+
+.block li {
+  font-size: 10px;
+}
+
+.bottom {
+  text-align: center;
+  color: #fff;
+  background: #0bf;
+  margin: 10px 0;
+}
+
+.ft {
+  width: 80%;
+  border: 0.5px dashed #333;
+}

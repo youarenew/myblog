@@ -1,0 +1,41 @@
+/* ---------- golbal config ---------- */
+
+body {
+  width: 1000px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 10px;
+  font: 14px "Microsoft yahei";
+}
+
+ul {
+  list-style-type: none;
+}
+
+h3 {
+  color: #00B7FF;
+  font-size: 14px;
+  font-weight: normal;
+  text-align: left;
+}
+
+h4 {
+  font-size: 10px;
+  font-weight: normal;
+  padding: 20px 10px 0 40px;
+}
+
+
+a {
+  color: #00B7FF;
+  padding: 10px 12px;
+  text-decoration: none;
+}
+
+.navbar-header a{
+  font-size: 30px;
+}
+
+a:hover {
+  color: #ccc;
+}
