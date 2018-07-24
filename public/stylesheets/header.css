@@ -1,15 +1,27 @@
-/* ---------- golbal config ---------- */
+/**
+ * header,menu
+ */
 
 body {
-  width: 1000px;
+  width: 1890px;
   height: 100%;
   margin: 0 auto;
-  padding: 10px;
+  padding: 5px 0px;
   font: 14px "Microsoft yahei";
 }
 
 ul {
   list-style-type: none;
+}
+
+a {
+  color: #00B7FF;
+  padding: 10px 12px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ccc;
 }
 
 h3 {
@@ -19,23 +31,41 @@ h3 {
   text-align: left;
 }
 
-h4 {
+/*h4 {
   font-size: 10px;
   font-weight: normal;
   padding: 20px 10px 0 40px;
+}*/
+
+.header {
+  /*border: 0.5px solid #0bc; */
+  background: #666;
+  height: 45px;
+  padding: 0px;
+  margin: 0px;
+  position: relative;
+  z-index: 0;
 }
 
+.header span {
+  padding: 0px 0px 0px 300px;
+  float: left;
+}
 
-a {
-  color: #00B7FF;
-  padding: 10px 12px;
+.header .menu {
+  float: right;
   text-decoration: none;
+  padding: 0px 300px 0px 0px;
+  margin:  0px 0px 0px 0px;
+}
+.header ul {
+  text-align: center;
+  padding: 5px 8px 0px 0px;
+  margin: 10px 10px 10px 0;
 }
 
-.navbar-header a{
-  font-size: 30px;
+.header li {
+  float: left;
 }
 
-a:hover {
-  color: #ccc;
-}
+

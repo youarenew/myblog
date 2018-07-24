@@ -1,61 +1,28 @@
-
-/* ---------- header title bar ---------- */
+/**
+ * body-br
+ */
 
 .bbr {
-  width: 100%;
-  margin: 5px 0px;
-}
-
-.header{
-  /* border: 0.5px solid #0bc; */
-  /* background: #666; */
-  width: 100%;
-  height: 50px;
-  min-width: 600px;
-  margin: 0;
-  padding: 10px 0px;
-  position: relative;
-  z-index: 0;
-}
-
-.navbar-header {
-  /* border: 1px solid red; */
-  width: 300px;
-  height: 50px;
-  text-align: left;
-  padding: 3px 50px 0px 50px;
-  margin: 0;
-  float: left;
-}
-
-.navbar-user {
-  /* border: 1px solid red; */
-  float: right;
+  width: 95%;
   text-align: center;
-  padding: 5px 8px 0px 0px;
-  margin: 10px 10px 10px 0;
+  /*margin: 0px 200px 0px 200px;*/
 }
 
-.navbar-user li {
-  /* border: 1px solid red; */
-  margin: 0px 10px 0px 0px;
-  text-align: center;
-  float: left;
-}
 
 /* ---------- section ---------- */
 
 section {
-  /* border: 1px solid red; */
-  width: 100%;
-  height: 500px;
-  /* padding: 10px; */
+  /*border: 1px solid red; */
+  width: 75%;
+  /*height: 800px;*/
+  padding: 10px 0px 0px 0px; 
+  margin: 10px 0px 0px 250px;
 }
 
 /* ---------- blog list ---------- */
 
 .blog-list {
-  /* border: 1px solid red; */
+   /*border: 1px solid red; */
   width: 75%;
   height: 95%;
   float: left;
@@ -69,8 +36,8 @@ section {
   margin: 0px;
 }
 
-.list-group-item {
-  /* border: 1px solid red; */
+.blogs {
+   /*border: 1px solid red; */
   height: 50px;
   /* background: #ccc; */
   padding: 0px;
@@ -104,13 +71,15 @@ section {
 }
 
 
-/* ---------- blog tag ---------- */
+/**
+ * blog classify
+ */
 
 .blog-classify {
   /* border: 1px solid red; */
   /* width: 20%; */
   height: 95%;
-  float: right;
+  float: left;
   line-height: 30px;
   padding: 50px 0px 0px 15px;
 }
