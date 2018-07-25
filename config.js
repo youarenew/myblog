@@ -18,6 +18,8 @@ var config = {
 	// mongodb配置
 	db: 'mongodb://localhost:27017/myblog',
 
+	// redis 配置
+
 }
 
 module.exports = config;
