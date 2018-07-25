@@ -4,7 +4,10 @@
 
 body {
   width: auto;
+<<<<<<< HEAD
   min-width: 1020px;
+=======
+>>>>>>> 0072920019108ed3eb5d7ce31565f29e4f013d5e
   height: 100%;
   margin: 0 auto;
   padding: 0px 0px;
@@ -41,12 +44,19 @@ h3 {
 .header {
   /* border: 1px solid red; */
   background: #666;
+<<<<<<< HEAD
   height: 50px;
   min-width: 1020px;
   padding: 5px;
   margin: 5px;
+=======
+  min-width: 1020px;
+  height: 45px;
+  padding: 10px 0px;
+  margin: 0px;
+>>>>>>> 0072920019108ed3eb5d7ce31565f29e4f013d5e
   position: relative;
-  z-index: 0;
+  z-index: 32;
 }
 
 .header span {
@@ -65,9 +75,9 @@ h3 {
   margin:  0px 0px 0px 0px;
 }
 .header ul {
-  text-align: center;
-  padding: 5px 8px 0px 0px;
-  margin: 10px 10px 10px 0;
+  text-align: right;
+  padding: 5px 0px 0px 0px;
+  margin: 10px auto;
 }
 
 .header li {
