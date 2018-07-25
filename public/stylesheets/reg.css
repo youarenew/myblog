@@ -1,0 +1,44 @@
+
+.reg {
+	/* border: 1px solid red; */
+	width: 65%;
+	padding: 30px;
+	margin: 0 auto;
+}
+
+.reg label {
+	display: block;
+	margin: 20px auto;
+	width: 75%;
+	text-align: left;
+}
+
+.reg label>span {
+	float: left;
+	width: 20%;
+	text-align: right;
+	padding: 0px 10px 0px 0px;
+	margin: px 0px 0px 0px;
+	color: #969696;
+}
+
+.reg input[type='text'] {
+	width: 70%;
+	height: 30px;
+	padding: 10px 0px 3px 5px;
+	margin: 0px auto;
+	border: 1px solid #e5e5e5;
+	background: #fbfbfb;
+	line-height: 15px;
+	outline: 0px;
+}
+
+.reg .button {
+	background: #FFF;
+	border: 1px solid #CCC;
+	padding: 10px 25px 10px 25px;
+	color: #333;
+	border-radius: 4px;
+	text-align: center;
+
+}

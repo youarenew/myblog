@@ -3,10 +3,11 @@
  */
 
 body {
-  width: 1890px;
+  width: auto;
+  min-width: 1020px;
   height: 100%;
   margin: 0 auto;
-  padding: 5px 0px;
+  padding: 0px 0px;
   font: 14px "Microsoft yahei";
 }
 
@@ -16,7 +17,7 @@ ul {
 
 a {
   color: #00B7FF;
-  padding: 10px 12px;
+  padding: 5px 10px;
   text-decoration: none;
 }
 
@@ -38,24 +39,29 @@ h3 {
 }*/
 
 .header {
-  /*border: 0.5px solid #0bc; */
+  /* border: 1px solid red; */
   background: #666;
-  height: 45px;
-  padding: 0px;
-  margin: 0px;
+  height: 50px;
+  min-width: 1020px;
+  padding: 5px;
+  margin: 5px;
   position: relative;
   z-index: 0;
 }
 
 .header span {
-  padding: 0px 0px 0px 300px;
+  /* border: 1px solid red; */
+  text-align: right;
+  width: 20%;
+  padding: 0px 0px 0px 0px; 
+  margin: 0px auto;
   float: left;
 }
 
 .header .menu {
   float: right;
   text-decoration: none;
-  padding: 0px 300px 0px 0px;
+  padding: 0px 200px 0px 0px;
   margin:  0px 0px 0px 0px;
 }
 .header ul {

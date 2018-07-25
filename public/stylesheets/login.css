@@ -1,0 +1,36 @@
+/**
+ * login css file
+ */
+
+.login {
+	/* border: 0.5px solid #0bf; */
+	width: 50%;
+	min-width: 1020px;
+	padding: 30px 30px 20px 30px;
+	margin: 0px auto;
+	border-radius: 10px;
+}
+
+.login .form-login {
+	padding: 20px;
+	display: block;
+}
+
+.login label {
+	float: left;
+	display: block;
+	padding: 0px 10px;
+	margin: 0px auto;
+}
+
+.login label>span {
+	float: left;
+	padding: 0px 10px;
+	margin: 0px auto;
+}
+
+.login input[type='text'] .login input[type='password'] {
+	color: #666;
+	width: 70px;
+	height: 30px;
+}

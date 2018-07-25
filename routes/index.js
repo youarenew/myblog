@@ -26,7 +26,7 @@ router.get('/', function(req, res, next) {
 
 // 注册
 router.get('/reg', function(req, res, next) {
-  res.render('index', { title: '注册' });
+  res.render('reg', { title: '注册' });
 });
 
 // 登录
