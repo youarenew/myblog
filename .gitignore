@@ -1,4 +1,4 @@
-config.js
+# Ignore module packages
 node_modules
 
 # Ignore Windows desktop setting file

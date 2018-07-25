@@ -1,5 +1,5 @@
 /**
- * body-br
+ * ---------- body-br ----------
  */
 
 .bbr {
@@ -8,18 +8,69 @@
   /*margin: 0px 200px 0px 200px;*/
 }
 
+/*section form {
+  background: #333;
+}
 
-/* ---------- section ---------- */
+section .search {
+  float: left;
+  outline: 0;
+  height: 25px;
+  padding: 0px;
+  margin: 10px 0px 10px 20px;
+}
+
+section .input-control {
+  text-align: left;
+  width: 100%;
+  height: 15px;
+  border-radius: 4px;
+  outline: 0;
+  text-decoration: none;
+  -web-kit-appearance:none;
+  -moz-appearance: none;
+}*/
+
+/**
+ * ---------- section ----------
+ */
 
 section {
   /*border: 1px solid red; */
   width: 75%;
-  /*height: 800px;*/
-  padding: 10px 0px 0px 0px; 
-  margin: 10px 0px 0px 250px;
+  height: 100%;
+  min-width: 1020px;
+  padding: 0px 0px 0px 0px; 
+  margin: 0px 0px 0px 250px;
 }
 
-/* ---------- blog list ---------- */
+/**
+ * ---------- page title ----------
+ */
+section span {
+  width: 30%;
+  height: 50px;
+}
+
+.page-title {
+  /*border: 1px solid red;*/
+  width: 100%;
+  height: 30px;
+  float: left;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.search {
+  float: left;
+  height: 25px;
+  margin: 0px 0px 0px 50px;
+}
+
+/**
+ * ---------- blogs list ----------
+ */
+
 
 .blog-list {
    /*border: 1px solid red; */
