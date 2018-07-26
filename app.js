@@ -16,7 +16,6 @@ var mongoose = require('mongoose');
 var urlinfo = require('url').parse(config.host);
 config.hostname = urlinfo.hostname || config.host;
 
-var db = mongoose.createConnection(config.db);
 
 var app = express();
 
