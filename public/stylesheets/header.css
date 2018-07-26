@@ -4,9 +4,13 @@
 
 body {
   width: auto;
+<<<<<<< HEAD
+=======
+  /*min-width: 1020px;*/
+>>>>>>> 22960b83bd92a2424bee05487cccfe9c3168483a
   height: 100%;
-  margin: 0 auto;
   padding: 0px 0px;
+  margin: 0px auto;
   font: 14px "Microsoft yahei";
 }
 
@@ -38,7 +42,7 @@ h3 {
 }*/
 
 .header {
-  /* border: 1px solid red; */
+  /*border: 0.5px solid #666; */
   background: #666;
   width: 100%;
   min-width: 1020px;
@@ -50,19 +54,24 @@ h3 {
 }
 
 .header span {
-  /* border: 1px solid red; */
-  text-align: right;
+  /*border: 1px solid red; */
+  text-align: center;
   width: 20%;
+
   padding: 0px 0px; 
   margin: -15px auto 0px auto;
+
   float: left;
 }
 
 .header .menu {
+  /*border: 1px solid red;*/
   float: right;
   text-decoration: none;
+
   padding: 0px 200px 0px 0px;
   margin:  -10px auto;
+
 }
 .header ul {
   text-align: right;
