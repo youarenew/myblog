@@ -11,9 +11,12 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var routes = require('./routes/index');
+var mongoose = require('mongoose');
 
 var urlinfo = require('url').parse(config.host);
 config.hostname = urlinfo.hostname || config.host;
+
+var db = mongoose.createConnection(config.db);
 
 var app = express();
 
@@ -50,12 +53,15 @@ app.use(function(err, req, res, next) {
   res.render('error');
 });
 
+
+// listen server started port 
 if (!module.parent) {
 	app.listen(config.port, function () {
 		console.log('Myblog server listening on port', config.port);
 		console.log('You can debug your app with http://' + config.hostname + ':' + config.port);
 		console.log('');
 	});
-}
+};
+
 
 module.exports = app;

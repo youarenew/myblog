@@ -1,6 +1,7 @@
 var express = require('express');
 var router = express.Router();
 
+
 /* GET home page. */
 // var blogs = { title: '使用nodejs搭建个人博客(1)', author:'Jason', date:'2018/07/15'}
 var blog = 
@@ -54,10 +55,6 @@ router.get('/remove', function(req, res, next) {
   res.render('index', { title: '删除' });
 });
 
-// module.exports = function(app){
-// 	app.get('/', function(req, res, next){
-// 		res.render('index', { title: '首页' });
-// 	});
-// }
+
 
 module.exports = router;
