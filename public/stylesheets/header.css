@@ -40,11 +40,12 @@ h3 {
 .header {
   /* border: 1px solid red; */
   background: #666;
+  width: 100%;
   min-width: 1020px;
   height: 45px;
-  padding: 10px 0px;
+  padding: 0px 0px;
   margin: 0px;
-  position: relative;
+  position: fixed;
   z-index: 32;
 }
 
@@ -52,8 +53,8 @@ h3 {
   /* border: 1px solid red; */
   text-align: right;
   width: 20%;
-  padding: 0px 0px 0px 0px; 
-  margin: 0px auto;
+  padding: 0px 0px; 
+  margin: -15px auto 0px auto;
   float: left;
 }
 
@@ -61,7 +62,7 @@ h3 {
   float: right;
   text-decoration: none;
   padding: 0px 200px 0px 0px;
-  margin:  0px 0px 0px 0px;
+  margin:  -10px auto;
 }
 .header ul {
   text-align: right;

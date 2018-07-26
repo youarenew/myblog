@@ -3,11 +3,11 @@
  */
 
 .footer {
-  /*border: 0.5px solid #0bc; */
+  /* border: 0.5px solid #0bc;  */
   position: fixed;
-  float: center;
   width: 100%;
-  padding: 5px 0px;
+  min-width: 1020px;
+  padding: 2px 0px;
   bottom: 0;
 }
 
@@ -22,14 +22,13 @@
 }
 
 .block ul {
-  /*border: 0.5px solid #0bc; */
-  height: 20px;
+  height: 0px;
   margin: 0 auto;
   padding: 0px;
 }
 
 .block li {
-  /*border: 0.5px solid #0bc; */
+  /* border: 0.5px solid #0bc;  */
   font-size: 10px;
   float: left;
   padding: 0px 10px;
