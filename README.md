@@ -1,7 +1,7 @@
 
 ​	
 
-# Myblog
+# MyBlog
 
 ---
 
@@ -22,7 +22,7 @@
     有任何意见或建议都欢迎提 issue，或者直接提给 @youarenew
 
 ### License
-    not yet
+    BLOG
 
 
 
