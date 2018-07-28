@@ -4,4 +4,5 @@ node_modules
 # Ignore Windows desktop setting file
 desktop.ini
 
+# Ignore test file
 *test*
