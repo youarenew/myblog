@@ -6,18 +6,23 @@ var path = require('path');
 var config = require('./config');
 var createError = require('http-errors');
 var express = require('express');
-var session = require('express-session');
+// var session = require('express-session');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
-var routes = require('./routes/index');
-var mongoose = require('mongoose');
+// var mongoose = require('mongoose');
+// var http = require('http');
+// var server = http.createServer(app);
+
+var routes = require('./lib/routers');
 
 var urlinfo = require('url').parse(config.host);
 config.hostname = urlinfo.hostname || config.host;
 
-
 var app = express();
+
+// 连接Mongodb
+// var db = mongoose.connect(config.db);
 
 // 设置模板目录
 app.set('views', path.join(__dirname, 'views'));
@@ -34,7 +39,6 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 
 app.use('/', routes);
-// routes(app);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
@@ -52,6 +56,7 @@ app.use(function(err, req, res, next) {
   res.render('error');
 });
 
+// var routes = require('./lib/router');
 
 // listen server started port 
 if (!module.parent) {

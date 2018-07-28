@@ -17,27 +17,30 @@
   <!-- <hr class="bbr"> -->
   <div class="blog-list">
     <ul class="list-group">
-      <li class="blogs">
-
-        <% data.forEach(function(blog){ %>
-          <div class="blog-title">
-            <a href="#"><%= blog.title %></a>
-          </div>
-          <div class='blog-lines'>
-            <%= blog.content %>
-          </div>
-          <div class="info">
-            <span>查阅: 3.5万</span>
-            <span>|</span>
-            <span>喜欢: 2.3万</span>
-            <span>|</span>
-            <span>日期：<%- blog.date %></span>
-            <!-- <span>|</span> -->
-            <!-- <span><a href="/update">修改</a></span> -->
-          </div>
-        <% }) %>
-
+    <% articles.forEach(function(articles){ %>
+      <li>
+        <div class="blog-title">
+          <a href="#">
+              <%= articles.title %>
+          </a>
+        </div>
+        <div class='blog-lines'>
+          <%= articles.content %>
+        </div>
+        <div class="info">
+          <span>查阅: 3.5万</span>
+          <span>|</span>
+          <span>喜欢: 2.3万</span>
+          <span>|</span>
+          <span>日期：
+              <%= articles.date %>
+          </span>
+          <!-- <span>|</span> -->
+          <!-- <span><a href="/update">修改</a></span> -->
+        </div>
       </li>
+    <% }) %>
+
     </ul>
 
   </div>
@@ -46,9 +49,9 @@
     <ul class="blog-tag">
       <h3>文章列表</h3>
       
-      <% data.forEach(function(blog){ %>
+      <% articles.forEach(function(articles){ %>
         <li>
-          <%= blog.title %>
+          <%= articles.title %>
         </li>
       <% }) %>
 
@@ -56,9 +59,9 @@
     <ul class="blog-links">
       <h3>好文推荐</h3>
       
-      <% data.forEach(function(blog){ %>
+      <% articles.forEach(function(articles){ %>
         <li>
-          <%= blog.title %>
+          <%= articles.title %>
         </li>
       <% }) %>
 
